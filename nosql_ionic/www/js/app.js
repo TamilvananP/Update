@@ -7,7 +7,7 @@ angular.module('ionicApp', ['ionic'])
                         $scope.val=[];
 
             $http({     method:'GET',
-                        url : 'http://192.168.1.8:8081/',
+                        url : 'http://192.168.1.103:8081/',
                         data:{},
                         headers : {'Content-Type': 'application/x-www-form-urlencoded'}
         }).success(function(res){

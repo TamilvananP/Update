@@ -13,7 +13,7 @@ app.controller('appctrl', function($scope, $http,$log,$location) {
                 var postData = 'myData='+JSON.stringify(formData);
 	       //var postData = {'myData':formData};
 	    $http({   method:'POST',
-                        url :'http://192.168.1.8:8081/post',
+                        url :'http://192.168.1.103:8081/post',
                         data:postData,
                         headers : {'Content-Type': 'application/x-www-form-urlencoded'}
                   }).success(function(res){
