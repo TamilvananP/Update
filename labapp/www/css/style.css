@@ -1,0 +1,17 @@
+.pat_tab{
+  font-size: 100%;
+}
+
+.chart_content{
+border: solid 20px green;
+margin: auto;
+}
+.chart-container{
+  height:10%;
+  width: 25%;
+
+}
+
+.ion_tabs{
+ margin: 0px 200px 0px 100px;
+}
